@@ -5,6 +5,6 @@ package protein
 //}
 
 func FromRNA(str string)  {
-	map1[]{}
+	
 }
 
