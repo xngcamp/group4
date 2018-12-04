@@ -11,11 +11,12 @@ func main() {
 	fmt.Println("请在0到",len(str)-1," 之间输入下标位置：")
 	fmt.Scanf("%d",&n)
 
-	temp := []rune(str)
-	fmt.Println(slice1(temp,n))
+	fmt.Println(Slice1(str,n))
 }
 
-func slice1(str []rune,j int) int {
+func Slice1(a string,j int) int {
+	str := []rune(a)
+
 	var num  = 0
 
 	if string(str[j]) != "(" {
