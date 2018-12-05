@@ -40,6 +40,7 @@ func main()  {
 	Result(circle)
 	Result(rectangle)
 }
-func Result(g Graph){
+func Result(g Graph)float64{
 	fmt.Printf("area=%v\n",g.Area())
+	return g.Area()
 }
