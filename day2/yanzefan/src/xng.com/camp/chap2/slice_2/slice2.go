@@ -20,27 +20,24 @@ func main() {
 
 func IsValidISBN(str string)bool {
 	var arr []int
-	var temp []rune
 
-	if str != "" {       // 判断字符串是否为空
-		temp = []rune(str)
-	} else {
+	if str == "" {
 		return false
 	}
 	var current []rune
 
-	for _,x := range temp{        // 将"-"去掉
+	for _,x := range str{        // 将"-"去掉
 		if string(x) != "-" {
 			current = append(current,x)
 		}
 	}
 
-	if len(current) != 10 {
+	if len(current) != 10 {        // 判断字符串长度
 		return false
 	}
 
 
-	for i := 0; i < len(current) - 1 ; i++ {
+	for i := 0; i < len(current) - 1 ; i++ {       // 对前9个处理
 
 		if (string(current[i]) >= "A") && (string(current[i]) <= "Z") {
 			return false
@@ -54,7 +51,7 @@ func IsValidISBN(str string)bool {
 	}
 
 
-	if string(current[9]) == "X"  {
+	if string(current[9]) == "X"  {       // 对第10个进行处理
 		arr = append(arr,10)
 	} else if (string(current[9]) >= "A") && (string(current[9]) <= "Z"){
 		return false
@@ -75,6 +72,4 @@ func IsValidISBN(str string)bool {
 	} else {
 		return false
 	}
-		//return false
-
 }

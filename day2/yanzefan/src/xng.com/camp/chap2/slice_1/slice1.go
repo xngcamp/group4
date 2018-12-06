@@ -14,14 +14,9 @@ func main() {
 	fmt.Println(Slice1(str,n))
 }
 
-func Slice1(a string,j int) int {
-	str := []rune(a)
-
+func Slice1(str string,j int) int {
 	var num  = 0
 
-	if string(str[j]) != "(" {
-		return -1
-	}
 	for i := j; i < len(str); i++ {
 		if string(str[i]) == "(" {
 			num++

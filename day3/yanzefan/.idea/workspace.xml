@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5c61c7-87c1-4a00-a84a-e2fd9c4b7b3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/yanzefan.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xng.com/camp/chap3/inter/download.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xng.com/camp/chap3/inter/mock/Retriever.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xng.com/camp/chap3/inter/real/Retriever.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/xng.com/camp/chap3/interfaceTest/interfaceTest.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day2/yanzefan/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day2/yanzefan/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day2/yanzefan/src/xng.com/camp/chap2/map1/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../day2/yanzefan/src/xng.com/camp/chap2/map1/map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/xng.com/camp/chap3/homework1/homework1.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
@@ -66,6 +67,23 @@
               <item name="xng.com" type="462c0819:PsiDirectoryNode" />
               <item name="camp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yanzefan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yanzefan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xng.com" type="462c0819:PsiDirectoryNode" />
+              <item name="camp" type="462c0819:PsiDirectoryNode" />
+              <item name="chap3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yanzefan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yanzefan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xng.com" type="462c0819:PsiDirectoryNode" />
+              <item name="camp" type="462c0819:PsiDirectoryNode" />
+              <item name="chap3" type="462c0819:PsiDirectoryNode" />
+              <item name="homework1" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -76,7 +94,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../day2/yanzefan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -113,15 +131,15 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -142,17 +160,11 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/xng.com/camp/chap2/map1/map.go" />
-    <entry file="file://$PROJECT_DIR$/src/xng.com/camp/chap3/interfaceTest/interfaceTest.go">
+    <entry file="file://$PROJECT_DIR$/src/xng.com/camp/chap3/exercise/structTest.go" />
+    <entry file="file://$PROJECT_DIR$/src/xng.com/camp/chap3/homework1/homework1.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/xng.com/camp/chap3/exercise/structTest.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="416">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>

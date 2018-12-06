@@ -4,23 +4,37 @@ import "fmt"
 
 func main() {
 
-	str := "ababab"
+	str := "abcdefbgac"
+	FindLongest(str)
 
-	var temp []rune
-	for _ , x := range str{
-		temp = append(temp,x)
-	}
+}
 
-	fmt.Println(temp)
+func FindLongest( s string )  {
 
-	var arr map[string]int
+	lastOccurred := make(map[byte]int)
 
-	for i := 0; i < len(temp); i++ {
-		for j := i + 1; j < len(temp); j++ {
-			if temp[i] {
+	var arr []byte
 
-			}
+	start := 0
+	maxLen := 0
+
+	for i, ch := range []byte(s) {
+
+		lastI, ok := lastOccurred[ch]
+
+		if ok && lastI >= start {
+			start = lastOccurred[ch] + 1
 		}
+
+		if i - start + 1 > maxLen {
+			arr = append(arr,ch)
+			maxLen = i - start + 1
+		}
+
+		lastOccurred[ch] = i
+
 	}
+
+	fmt.Printf("%q",arr)
 
 }
