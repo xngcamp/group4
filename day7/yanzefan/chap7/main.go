@@ -43,24 +43,26 @@ videostore1.pos  使用 https://www.processon.com 浏览
 */
 
 func main() {
-	//aCustomer := new(customer.Customer)
-	var aCustomer customer.Customer
+	aCustomer := new(customer.Customer)
 	aCustomer.Init("Tom")
 
-	var rental1 rental.Rental
-	movie1 := movie.RegularMovie{Title:"Star Wars"}
-	rental1.Init(movie1, 3)
+	rental1 := rental.Rental{
+		AMovie: movie.Movie{
+			Title: "The Godfather",
+			PriceCode: movie.REGULAR,
+		},
+		DaysRented: 5,
+	}
 	aCustomer.AddRental(rental1)
 
-	var rental2 rental.Rental
-	movie2 := movie.NewMovie{Title: "The Godfather Part II"}
-	rental2.Init(movie2, 1)
+	rental2 := rental.Rental{
+		AMovie: movie.Movie{
+			Title: "Fast & Furious",
+			PriceCode: movie.NEW_RELEASE,
+		},
+		DaysRented: 1,
+	}
 	aCustomer.AddRental(rental2)
-
-	var rental3 rental.Rental
-	movie3 := movie.ChildrenMovie{Title: "Casablanca"}
-	rental3.Init(movie3, 7)
-	aCustomer.AddRental(rental3)
 
 	result := aCustomer.Statement()
 	fmt.Println(result)
