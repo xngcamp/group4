@@ -63,7 +63,7 @@ func (user *User) Update(w http.ResponseWriter, r *http.Request) {
 
 
 
-	if updateReq.Token == updateReq.UpdateInfo.Email {
+	if updateReq.Token == updateReq.UpdateInfo.Email && updateReq.Token != ""{
 		if err := service.NewUser().Update(updateReq.UpdateInfo.Email,updateReq.UpdateInfo.Nick,updateReq.UpdateInfo.Password,updateReq.UpdateInfo.Sex); err != nil {
 			clog.Error("err: %v, req: %v", err, updateReq)
 			user.ReplyFail(w, lib.CodeSrv)
